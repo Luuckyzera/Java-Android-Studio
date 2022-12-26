@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Historico">
+
+    <Button
+        android:id="@+id/btmanterhoje"
+        android:layout_width="176dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="116dp"
+        android:text="Apagar Hoje"
+        app:layout_constraintBottom_toTopOf="@+id/Btretornar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <Button
+        android:id="@+id/Btretornar"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="4dp"
+        android:text="Retornar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Btclear"
+        android:layout_width="176dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="116dp"
+        android:text="Apagar Tudo"
+        app:layout_constraintBottom_toTopOf="@+id/Btretornar"
+        app:layout_constraintEnd_toStartOf="@+id/btmanterhoje"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <TextView
+        android:id="@+id/Txtgrava"
+        android:layout_width="335dp"
+        android:layout_height="449dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/btmanterhoje"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
